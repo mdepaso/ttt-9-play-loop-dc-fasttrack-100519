@@ -39,7 +39,10 @@ end
 
 def play(board)
   loop do
-  break
+
+  
+  if counter >= 9
+    break
 end
 
 
