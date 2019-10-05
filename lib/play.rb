@@ -40,9 +40,8 @@ end
 turn=0
 
 def play(board)
-  while turn < 9
-
-    turn += 1
+  9.times do
+    turn(board)
   if turn >= 9
     break
 end
