@@ -39,7 +39,7 @@ end
 
 def play(board)
   loop do
-    
+  break
 end
 
 
