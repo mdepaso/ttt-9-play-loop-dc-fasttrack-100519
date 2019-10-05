@@ -41,7 +41,7 @@ turn=0
 
 def play(board)
   
-  while counter < 20
+  while turn < 9
     puts "The current number is less than 20."
     counter += 1
   turn += 1
